@@ -1,0 +1,36 @@
+.content {
+    background-color: black;
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+}
+.cook {
+    background-color: grey;
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+}
+.conteiner {
+    background-color: red;
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+}
+.box {
+    background-color: green;
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+}.item {
+    background-color: blue;
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+}
+.block {
+    display: flex;
+    gap: 100px;
+    width: 3000px;
+    height: 1000px;
+    flex-wrap: wrap;
+}
