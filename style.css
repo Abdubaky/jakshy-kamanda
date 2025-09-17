@@ -349,3 +349,77 @@
 
 
 
+.block1 {
+    position: relative;
+    top: 300px;
+    width: 1600px;
+    height: 1500px;
+    border: 2px solid red;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap ;
+    border-radius: 30px;
+}
+.block5 {
+    border-radius: 30px;
+    border: 5px solid red;
+    height: 700px;
+    width: 400px;
+}
+.block5 img {
+    height: 500px;
+    border-radius: 30px;
+}
+.block2 {
+    border-radius: 30px;
+    border: 5px solid red;
+    height: 700px;
+    width: 400px;
+}
+.block2 img {
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+}
+.block3 {
+    border-radius: 30px;
+    border: 5px solid red;
+    height: 700px;
+    width: 400px;
+}
+.block3 img {
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+}
+.block4 {
+    border-radius: 30px;
+    border: 5px solid red;
+    height: 700px;
+    width: 400px;
+}
+.block4 img {
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+}
+.block1 button {
+    width: 100px;
+    background-color: green;
+    border: none;
+    color: white;
+    height: 38px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px grey;
+    transition: all 0.3s ease;
+    transform: translateY(10px);
+    position: relative;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+.block1 button:hover {
+    transition: all 0.3s ease;
+    transform: translateY(-10px);
+    color: red;
+}
